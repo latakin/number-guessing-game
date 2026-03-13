@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.899);
+  height: 100vh;
+  font-family: cursive;
+  color: white;
+  font-size: 16px;
+  padding: 20px;
+}
+
+.top-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-div p {
+  font-size: 1.6rem;
+}
+
+.reset-button {
+  padding: 5px 10px;
+  font-size: 1.9rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.second-div {
+  text-align: center;
+  position: relative;
+  margin: 30px 30px;
+  margin-bottom: 10rem;
+}
+
+.second-div h1 {
+  font-size: 5rem;
+  margin-bottom: 70px;
+  word-spacing: 0.5em;
+}
+.second-div hr {
+  height: 5px;
+  background-color: white;
+}
+
+.second-div p {
+  border: 1px solid white;
+  padding: 30px;
+  display: inline;
+  font-size: 3.5rem;
+  font-weight: 700;
+  background-color: white;
+  height: 120px;
+  position: absolute;
+  top: 70%;
+  left: 48%;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.last-div {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20%;
+}
+
+.last-div .form-div {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  font-size: 3rem;
+  height: 100px;
+  width: 200px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.play-button {
+  font-size: 2rem;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.game-info {
+  font-size: 2rem;
+}
